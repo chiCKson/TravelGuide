@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bkg"
+    tools:context="com.keliya.chickson.travelguide.LoginActivity">
+
+    <Button
+        android:id="@+id/EmailLogin"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="164dp"
+        android:background="@drawable/my_btn"
+        android:text="Email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="2dip"
+        android:paddingLeft="60dip"
+        android:paddingRight="60dip"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/MobileLogin"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="Mobile"
+        android:background="@drawable/my_btn"
+        android:drawableLeft="@drawable/ic_phone_iphone_black_24dp"
+        android:drawablePadding="2dip"
+        android:paddingLeft="60dip"
+        android:paddingRight="60dip"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>

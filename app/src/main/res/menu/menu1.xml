@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home"
+        android:title="Home Page"/>
+    <item android:id="@+id/about"
+        android:title="About"/>
+    <item android:id="@+id/helpdesk"
+        android:title="Help Desk"/>
+    <item android:id="@+id/otherServices"
+        android:title="Other Services"/>
+    <item android:id="@+id/knowledgehub"
+        android:title="Knowledge Hub"/>
+    <item android:id="@+id/signout"
+        android:title="Sign-Out"/>
+
+</menu>

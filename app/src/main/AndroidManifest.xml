@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.coen268.tripmate">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/findernew2"
+        android:label="Travel Guide"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAIashPBJ0qlaSCq4P0fgGy-vQkOLrtM9s" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Home" />
+        <activity
+            android:name=".Places"
+            android:label="@string/title_activity_places"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PlaceDetails" />
+        <activity android:name=".PlaceFragment" />
+        <activity android:name=".PlanPage" />
+        <activity android:name=".PlanDetails" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KnowledgeHubActivity" />
+        <activity android:name=".PlacesKhActivity" />
+        <activity android:name=".OtherServicesActivity" />
+        <activity android:name=".MobileLoginActivity" />
+        <activity android:name=".EmailLoginActivity" />
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".WeatherActivity" />
+        <activity android:name=".LoginSelectorActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ForgotPW" />
+        <activity android:name=".CurrencyConverterActicity" />
+        <activity android:name=".HelpDeskActivity" />
+        <activity android:name=".NetworkEnableActivity" />
+        <activity android:name=".LocationEnabledCheckActivity"></activity>
+    </application>
+
+</manifest>

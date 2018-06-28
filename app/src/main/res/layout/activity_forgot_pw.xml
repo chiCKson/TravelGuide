@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bkg"
+    tools:context=".ForgotPW">
+    <Button
+        android:id="@+id/reset_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="260dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="119dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="30dp"
+        android:text="Reset Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_field_boxes_email_fpw" />
+
+    <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+        android:id="@+id/text_field_boxes_email_fpw"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginEnd="28dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="84dp"
+        app:helperText="Enter your email address"
+        app:labelText="Email Address"
+        app:layout_constraintBottom_toTopOf="@+id/reset_pw"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+            android:id="@+id/tb_email_fpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorAccent"
+
+            />
+
+    </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+
+
+</android.support.constraint.ConstraintLayout>

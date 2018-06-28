@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Google IO 2018"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtAuthor"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:text="SLECC Colombo"
+        android:textSize="12sp" />
+
+
+    <!-- just a divider -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:text="Date: 11-11-2018"
+        android:textSize="11sp" />
+</RelativeLayout>
+
+
+
